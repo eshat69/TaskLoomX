@@ -3,7 +3,9 @@
 
 **“Weave your tasks, goals, and lists into productivity.”**
 
-![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/eshat69/TaskLoomX)
+![GitHub language](https://img.shields.io/github/languages/top/eshat69/TaskLoomX)
+![License](https://img.shields.io/github/license/eshat69/TaskLoomX)
 ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-brightgreen?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 ![Version](https://img.shields.io/badge/Version-1.0.0-orange?style=flat-square)
