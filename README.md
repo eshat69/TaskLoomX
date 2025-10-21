@@ -1,6 +1,6 @@
 
 # TaskLoomX 🧵✨
-
+---
 **“Weave your tasks, goals, and lists into productivity.”**
 ---
 ![GitHub repo size](https://img.shields.io/github/repo-size/eshat69/TaskLoomX)
