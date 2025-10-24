@@ -20,9 +20,9 @@
 - 🔁 Toggle task status (Pending 🔵 / Done ✅)
 - 🔥 Priority tagging (High, Mid, Low)
 - 🧠 AI-powered suggestions:
-- Smart priority detection based on task keywords
-- Auto-categorization (Work, Health, Finance, Personal, General)
-- Subtask recommendations for complex tasks
+      - Smart priority detection based on task keywords
+      - Auto-categorization (Work, Health, Finance, Personal, General)
+      - Subtask recommendations for complex tasks
 - 📂 Save/load tasks to JSON
 - 📊 Sort tasks by priority
 - 🎨 Color-coded UI for priority levels
