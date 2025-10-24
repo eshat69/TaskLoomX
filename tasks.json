@@ -1,0 +1,67 @@
+{
+  "tasks": [
+    [
+      "appointment doctor",
+      "High",
+      "2025-10-25 02:56:12",
+      "Pending \ud83d\udd34",
+      "Health"
+    ],
+    [
+      "pay wasa bill",
+      "High",
+      "2025-10-25 02:51:26",
+      "Pending \ud83d\udd34",
+      "Finance"
+    ],
+    [
+      "play 8 ball pool tournament",
+      "High",
+      "2025-10-25 02:18:57",
+      "Pending \ud83d\udd34",
+      "Personal"
+    ],
+    [
+      "travel with car",
+      "Mid",
+      "2025-10-25 02:49:59",
+      "Pending \ud83d\udd34",
+      "Lifestyle & Leisure"
+    ],
+    [
+      "exercise for 45 min",
+      "Mid",
+      "2025-10-25 02:53:55",
+      "Pending \ud83d\udd34",
+      "Fitness & Exercise"
+    ],
+    [
+      "sleep 8 hours",
+      "Mid",
+      "2025-10-25 02:53:00",
+      "Pending \ud83d\udd34",
+      "Mental & Emotional Wellness"
+    ],
+    [
+      "supervisor to do list",
+      "Mid",
+      "2025-10-25 02:42:32",
+      "Done \u2705",
+      "Academic Process"
+    ],
+    [
+      "learning python",
+      "Low",
+      "2025-10-25 02:54:39",
+      "Pending \ud83d\udd34",
+      "Finance"
+    ],
+    [
+      "office work",
+      "Low",
+      "2025-10-25 02:57:19",
+      "Pending \ud83d\udd34",
+      "Work"
+    ]
+  ]
+}
