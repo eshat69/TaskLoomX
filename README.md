@@ -15,9 +15,31 @@
   It allows users to manage tasks, goals, and lists efficiently while providing a sleek and organized UI experience.  
 </p>
 
-**Key Features:**
-- Add, edit, and delete tasks
-- Track and organize goals
-- Group tasks into lists
-- Mark tasks as complete
-- Lightweight and desktop-ready
+**🚀 Features**
+- ✅ Add, edit, delete tasks
+- 🔁 Toggle task status (Pending 🔵 / Done ✅)
+- 🔥 Priority tagging (High, Mid, Low)
+- 🧠 AI-powered suggestions:
+- Smart priority detection based on task keywords
+- Auto-categorization (Work, Health, Finance, Personal, General)
+- Subtask recommendations for complex tasks
+- 📂 Save/load tasks to JSON
+- 📊 Sort tasks by priority
+- 🎨 Color-coded UI for priority levels
+- 🧵 Category tagging with optional color highlights
+
+**🧠 AI Enhancements**
+TaskLoomX uses simple NLP logic to:
+- Suggest task priority based on urgency words like “urgent”, “asap”, “later”
+- Auto-assign categories based on task content (e.g., “doctor appointment” → Health)
+- Prompt users to break down long or compound tasks into subtasks
+
+**🖼️ UI Preview**
+Coming soon: screenshots and demo GIFs
+
+**🛠️ Installation**
+git clone https://github.com/eshat69/TaskLoomX.git
+cd TaskLoomX
+python main.py
+
+
