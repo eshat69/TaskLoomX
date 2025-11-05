@@ -3,6 +3,7 @@
 ---
 **“Weave your tasks, goals, and lists into productivity.”**
 ---
+
 ![GitHub repo size](https://img.shields.io/github/repo-size/eshat69/TaskLoomX)
 ![GitHub language](https://img.shields.io/github/languages/top/eshat69/TaskLoomX)
 ![Tkinter](https://img.shields.io/badge/Tkinter-GUI-brightgreen?style=flat-square)
