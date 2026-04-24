@@ -53,7 +53,7 @@ def suggest_category(task):
     elif any(word in task_lower for word in ["hobby", "goal", "journaling", "learning", "play","reading", "course", "study", "motivation", "reflection",
                                             "self-improvement", "relaxation", "creativity", "exploration", "adventure", "travel", "vacation", "trip", "outing",
                                             "fun", "entertainment", "music", "art", "craft", "photography", "writing", "blogging", "vlogging", "gaming", 
-                                            "movie", "theater", "theatre",]):
+                                            "movie", "theater", "theatre", "buy", "purchase", "snacks", "food", "shopping"]):
         return "Personal"
     return "General"
 
@@ -63,7 +63,7 @@ class TodoList:
         # setting up the main window
         self.master = master
         self.master.title("To-Do List")
-        self.master.geometry("400x500")
+        self.master.geometry("1080x720")
         self.master.configure(bg="#BD5F12")
 
         # setting up styles
@@ -197,10 +197,16 @@ class TodoList:
                 return
 
             new_task = simpledialog.askstring("Edit Task", "Update the task:", initialvalue=current_task)
-            new_priority = simpledialog.askstring("Edit Priority", "Update priority (High, Mid, Low):", initialvalue=current_priority)
-            new_category = suggest_category(new_task) if new_task else current_category
+            if new_task is None:
+                return  # User canceled
 
-            if new_task and new_priority and new_priority.lower() in ["high", "mid", "low"]:
+            new_priority = simpledialog.askstring("Edit Priority", "Update priority (High, Mid, Low):", initialvalue=current_priority)
+            if new_priority is None:
+                return  # User canceled
+
+            new_category = suggest_category(new_task)
+
+            if new_task and new_priority.lower() in ["high", "mid", "low"]:
                 self.task_tree.item(item, values=(new_task, new_priority.capitalize(), current_created, current_status, new_category))
             else:
                 messagebox.showwarning("Invalid Input", "Please enter valid task and priority.")
